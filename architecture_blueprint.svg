@@ -1,0 +1,478 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" width="1400" height="860" font-family="-apple-system, Segoe UI, Arial, sans-serif">
+
+  <!-- ── Background ── -->
+  <rect width="1400" height="860" fill="#f0f4f8" rx="0"/>
+
+  <!-- ══════════════════════════════════════════════════
+       TITLE BAR
+  ══════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1400" height="56" fill="#0f2137"/>
+  <text x="700" y="36" text-anchor="middle" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="0.5">
+    FITNESS BUDDY — ARCHITECTURE BLUEPRINT
+  </text>
+  <text x="700" y="52" text-anchor="middle" font-size="11" fill="#93c5fd" letter-spacing="1">
+    IBM GRANITE · WATSONX.AI · STREAMLIT · 9-LAYER GUARDRAILS
+  </text>
+
+  <!-- ══════════════════════════════════════════════════
+       LAYER LABELS (left margin)
+  ══════════════════════════════════════════════════ -->
+
+  <!-- Row 1 label: User Interface -->
+  <rect x="0" y="72" width="28" height="112" fill="#1d4ed8" rx="0"/>
+  <text x="14" y="130" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,130)" letter-spacing="1">USER INTERFACE</text>
+
+  <!-- Row 2 label: Input Guardrails -->
+  <rect x="0" y="196" width="28" height="72" fill="#7c3aed" rx="0"/>
+  <text x="14" y="234" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,234)" letter-spacing="1">INPUT GUARDRAILS</text>
+
+  <!-- Row 3 label: AI Engine -->
+  <rect x="0" y="280" width="28" height="168" fill="#0f766e" rx="0"/>
+  <text x="14" y="366" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,366)" letter-spacing="1">AI ENGINE</text>
+
+  <!-- Row 4 label: Output Guardrails -->
+  <rect x="0" y="460" width="28" height="72" fill="#7c3aed" rx="0"/>
+  <text x="14" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,498)" letter-spacing="1">OUTPUT GUARDRAILS</text>
+
+  <!-- Row 5 label: Data Layer -->
+  <rect x="0" y="544" width="28" height="100" fill="#b45309" rx="0"/>
+  <text x="14" y="596" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,596)" letter-spacing="1">DATA LAYER</text>
+
+  <!-- Row 6 label: Security -->
+  <rect x="0" y="656" width="28" height="76" fill="#dc2626" rx="0"/>
+  <text x="14" y="696" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,696)" letter-spacing="1">SECURITY</text>
+
+  <!-- Row 7 label: Operations -->
+  <rect x="0" y="744" width="28" height="100" fill="#374151" rx="0"/>
+  <text x="14" y="796" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff" transform="rotate(-90,14,796)" letter-spacing="1">OPERATIONS</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 1 — USER INTERFACE (y=72..184)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="72" width="1352" height="112" fill="#dbeafe" rx="8" stroke="#93c5fd" stroke-width="1.5"/>
+
+  <!-- Streamlit App -->
+  <rect x="56" y="84" width="160" height="88" rx="8" fill="#1d4ed8" stroke="#1e40af" stroke-width="2"/>
+  <text x="136" y="116" text-anchor="middle" font-size="13" font-weight="800" fill="#ffffff">🖥️ Streamlit App</text>
+  <text x="136" y="133" text-anchor="middle" font-size="10" fill="#bfdbfe">8 Pages · Wide Layout</text>
+  <text x="136" y="148" text-anchor="middle" font-size="10" fill="#93c5fd">app.py</text>
+  <text x="136" y="163" text-anchor="middle" font-size="9" fill="#93c5fd">Responsive CSS</text>
+
+  <!-- Page boxes -->
+  <rect x="232" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="278" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">📋 Daily</text>
+  <text x="278" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Check-In</text>
+
+  <rect x="330" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="376" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">🏋️ Workout</text>
+  <text x="376" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Planner</text>
+
+  <rect x="428" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="474" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">🥗 Meal</text>
+  <text x="474" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Builder</text>
+
+  <rect x="526" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="572" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">🪜 Habit</text>
+  <text x="572" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Ladder</text>
+
+  <rect x="624" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="670" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">📊 Progress</text>
+  <text x="670" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Tracker</text>
+
+  <rect x="722" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="768" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">💬 AI Chat</text>
+  <text x="768" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Interface</text>
+
+  <rect x="820" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="866" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">🏠 Home</text>
+  <text x="866" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">Dashboard</text>
+
+  <rect x="918" y="84" width="92" height="40" rx="6" fill="#2563eb" stroke="#3b82f6" stroke-width="1"/>
+  <text x="964" y="100" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">🔐 Guard-</text>
+  <text x="964" y="116" text-anchor="middle" font-size="9" fill="#bfdbfe">rails Panel</text>
+
+  <!-- Sidebar box -->
+  <rect x="1025" y="84" width="340" height="88" rx="8" fill="#0f2137" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="1195" y="108" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">⚙️ Sidebar Controls</text>
+  <text x="1075" y="126" font-size="9" fill="#93c5fd">🎭 Coach Personality (4 personas)</text>
+  <text x="1075" y="141" font-size="9" fill="#93c5fd">📍 Navigation · 📈 Quick Stats</text>
+  <text x="1075" y="156" font-size="9" fill="#93c5fd">✅ IBM Granite Connection Status</text>
+
+  <!-- Page 2nd row: Plan B / MVW labels under pages -->
+  <rect x="232" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="278" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Readiness Score</text>
+  <text x="278" y="160" text-anchor="middle" font-size="8" fill="#374151">Feature G</text>
+
+  <rect x="330" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="376" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Plan B + MVW</text>
+  <text x="376" y="160" text-anchor="middle" font-size="8" fill="#374151">Features B, C</text>
+
+  <rect x="428" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="474" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Smart Builder</text>
+  <text x="474" y="160" text-anchor="middle" font-size="8" fill="#374151">Feature D</text>
+
+  <rect x="526" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="572" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Habit Steps 1→5</text>
+  <text x="572" y="160" text-anchor="middle" font-size="8" fill="#374151">Feature E</text>
+
+  <rect x="624" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="670" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Beyond Weight</text>
+  <text x="670" y="160" text-anchor="middle" font-size="8" fill="#374151">Feature H</text>
+
+  <rect x="722" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="768" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Free-form Q&amp;A</text>
+  <text x="768" y="160" text-anchor="middle" font-size="8" fill="#374151">Granite Chat</text>
+
+  <rect x="820" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="866" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Stats + Motivation</text>
+  <text x="866" y="160" text-anchor="middle" font-size="8" fill="#374151">Feature A, F</text>
+
+  <rect x="918" y="132" width="92" height="32" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="964" y="148" text-anchor="middle" font-size="8.5" fill="#1d4ed8" font-weight="600">Live Status Log</text>
+  <text x="964" y="160" text-anchor="middle" font-size="8" fill="#374151">9 Layers</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 2 — INPUT GUARDRAILS (y=196..268)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="196" width="1352" height="72" rx="8" fill="#f3e8ff" stroke="#c084fc" stroke-width="1.5"/>
+
+  <rect x="56" y="208" width="166" height="48" rx="7" fill="#7c3aed" stroke="#6d28d9" stroke-width="1.5"/>
+  <text x="139" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">🛡️ Input Guardrails</text>
+  <text x="139" y="244" text-anchor="middle" font-size="9" fill="#ede9fe">guardrails.py</text>
+
+  <rect x="232" y="208" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="306" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Prompt Injection</text>
+  <text x="306" y="241" text-anchor="middle" font-size="9" fill="#374151">Detection &amp; Block</text>
+  <text x="306" y="252" text-anchor="middle" font-size="8" fill="#6b7280">Jailbreak Detection</text>
+
+  <rect x="388" y="208" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="462" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">PII Detection</text>
+  <text x="462" y="241" text-anchor="middle" font-size="9" fill="#374151">Email · Phone · SSN</text>
+  <text x="462" y="252" text-anchor="middle" font-size="8" fill="#6b7280">Redaction &amp; Masking</text>
+
+  <rect x="544" y="208" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="618" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Input Validation</text>
+  <text x="618" y="241" text-anchor="middle" font-size="9" fill="#374151">Length · Format · Type</text>
+  <text x="618" y="252" text-anchor="middle" font-size="8" fill="#6b7280">SQL Injection Prevent</text>
+
+  <rect x="700" y="208" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="774" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Content Filter</text>
+  <text x="774" y="241" text-anchor="middle" font-size="9" fill="#374151">Inappropriate Content</text>
+  <text x="774" y="252" text-anchor="middle" font-size="8" fill="#6b7280">Malicious Input Block</text>
+
+  <rect x="856" y="208" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="930" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Rate Limiting</text>
+  <text x="930" y="241" text-anchor="middle" font-size="9" fill="#374151">Token Budget Check</text>
+  <text x="930" y="252" text-anchor="middle" font-size="8" fill="#6b7280">Max 1000 tokens/call</text>
+
+  <rect x="1012" y="208" width="350" height="48" rx="6" fill="#faf5ff" stroke="#c084fc" stroke-width="1"/>
+  <text x="1187" y="226" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Session &amp; Security Guardrails</text>
+  <text x="1187" y="241" text-anchor="middle" font-size="9" fill="#374151">Session ID Tracking · Credential Mgmt · API Auth · Cross-Agent Security</text>
+  <text x="1187" y="252" text-anchor="middle" font-size="8" fill="#6b7280">Role-Based Access · Data Privacy Protection · Restricted Tool Execution</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 3 — AI ENGINE (y=280..448)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="280" width="1352" height="168" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1.5"/>
+
+  <!-- IBM watsonx.ai block -->
+  <rect x="56" y="292" width="220" height="144" rx="8" fill="#0f2137" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="166" y="316" text-anchor="middle" font-size="13" font-weight="800" fill="#ffffff">🤖 IBM watsonx.ai</text>
+  <rect x="72" y="324" width="188" height="26" rx="5" fill="#1d4ed8"/>
+  <text x="166" y="342" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">ibm/granite-4-h-small</text>
+  <text x="166" y="354" text-anchor="middle" font-size="8.5" fill="#93c5fd">(Primary Model)</text>
+  <rect x="72" y="358" width="188" height="22" rx="5" fill="#374151"/>
+  <text x="166" y="373" text-anchor="middle" font-size="9" fill="#d1d5db">ibm/granite-3-1-8b-base</text>
+  <text x="166" y="384" text-anchor="middle" font-size="8" fill="#9ca3af">(Fallback Model)</text>
+  <text x="166" y="400" text-anchor="middle" font-size="9" fill="#5eead4">granite_client.py</text>
+  <text x="166" y="414" text-anchor="middle" font-size="8.5" fill="#5eead4">_reload_env() on every render</text>
+  <text x="166" y="428" text-anchor="middle" font-size="8" fill="#9ca3af">REST API · watsonx.ai Endpoint</text>
+
+  <!-- Granite Client -->
+  <rect x="290" y="292" width="170" height="144" rx="8" fill="#0f766e" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="375" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">GraniteClient</text>
+  <text x="375" y="330" text-anchor="middle" font-size="9" fill="#ccfbf1">granite_client.py</text>
+  <line x1="305" y1="340" x2="445" y2="340" stroke="#14b8a6" stroke-width="0.5"/>
+  <text x="375" y="357" text-anchor="middle" font-size="8.5" fill="#ccfbf1">generate(prompt, sys)</text>
+  <text x="375" y="371" text-anchor="middle" font-size="8.5" fill="#ccfbf1">is_configured()</text>
+  <text x="375" y="385" text-anchor="middle" font-size="8.5" fill="#ccfbf1">_reload_env()</text>
+  <text x="375" y="399" text-anchor="middle" font-size="8.5" fill="#ccfbf1">temp · max_tokens</text>
+  <text x="375" y="413" text-anchor="middle" font-size="8.5" fill="#ccfbf1">load_dotenv(override=True)</text>
+  <text x="375" y="427" text-anchor="middle" font-size="8" fill="#5eead4">IBM_API_KEY · IBM_PROJECT_ID</text>
+
+  <!-- Feature Agents -->
+  <rect x="474" y="292" width="930" height="144" rx="8" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+  <text x="939" y="310" text-anchor="middle" font-size="11" font-weight="700" fill="#0f766e">🧠 Agentic Feature Modules  —  features.py</text>
+  <line x1="474" y1="316" x2="1404" y2="316" stroke="#99f6e4" stroke-width="1"/>
+
+  <!-- 8 feature agent boxes -->
+  <rect x="484" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="536" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">📋 Check-In</text>
+  <text x="536" y="356" text-anchor="middle" font-size="8" fill="#374151">Agent (A)</text>
+  <line x1="484" y1="362" x2="588" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="536" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">8 context inputs</text>
+  <text x="536" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">build_checkin_prompt</text>
+  <text x="536" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">readiness_score calc</text>
+  <text x="536" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature A + G</text>
+
+  <rect x="596" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="648" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">🏋️ Workout</text>
+  <text x="648" y="356" text-anchor="middle" font-size="8" fill="#374151">Agent</text>
+  <line x1="596" y1="362" x2="700" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="648" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Tailored routines</text>
+  <text x="648" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">MVW fallback logic</text>
+  <text x="648" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">Plan B alternatives</text>
+  <text x="648" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature B + C</text>
+
+  <rect x="708" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="760" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">🥗 Meal</text>
+  <text x="760" y="356" text-anchor="middle" font-size="8" fill="#374151">Builder Agent</text>
+  <line x1="708" y1="362" x2="812" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="760" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Ingredients input</text>
+  <text x="760" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">Indian cuisine support</text>
+  <text x="760" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">build_meal_prompt</text>
+  <text x="760" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature D</text>
+
+  <rect x="820" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="872" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">🪜 Habit</text>
+  <text x="872" y="356" text-anchor="middle" font-size="8" fill="#374151">Ladder Agent</text>
+  <line x1="820" y1="362" x2="924" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="872" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Steps 1 → 5</text>
+  <text x="872" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">Consistency gate</text>
+  <text x="872" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">build_habit_prompt</text>
+  <text x="872" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature E</text>
+
+  <rect x="932" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="984" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">🎭 Motivation</text>
+  <text x="984" y="356" text-anchor="middle" font-size="8" fill="#374151">Persona Agent</text>
+  <line x1="932" y1="362" x2="1036" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="984" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">4 coach styles</text>
+  <text x="984" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">System prompt inject</text>
+  <text x="984" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">build_system_prompt</text>
+  <text x="984" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature F</text>
+
+  <rect x="1044" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="1096" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">📊 Progress</text>
+  <text x="1096" y="356" text-anchor="middle" font-size="8" fill="#374151">Tracker Agent</text>
+  <line x1="1044" y1="362" x2="1148" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="1096" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Active days · Streaks</text>
+  <text x="1096" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">Achievements</text>
+  <text x="1096" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">build_progress_summary</text>
+  <text x="1096" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature H</text>
+
+  <rect x="1156" y="322" width="104" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="1208" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">⚡ Readiness</text>
+  <text x="1208" y="356" text-anchor="middle" font-size="8" fill="#374151">Score Agent</text>
+  <line x1="1156" y1="362" x2="1260" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="1208" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Energy+Sleep+Mood</text>
+  <text x="1208" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">Soreness+Activity</text>
+  <text x="1208" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">0–100 score</text>
+  <text x="1208" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature G</text>
+
+  <rect x="1268" y="322" width="126" height="96" rx="6" fill="#ffffff" stroke="#2dd4bf" stroke-width="1"/>
+  <text x="1331" y="342" text-anchor="middle" font-size="9" font-weight="700" fill="#0f766e">🔄 Plan B</text>
+  <text x="1331" y="356" text-anchor="middle" font-size="8" fill="#374151">Modifier Agent</text>
+  <line x1="1268" y1="362" x2="1394" y2="362" stroke="#99f6e4" stroke-width="0.5"/>
+  <text x="1331" y="376" text-anchor="middle" font-size="7.5" fill="#6b7280">Easier/Harder</text>
+  <text x="1331" y="389" text-anchor="middle" font-size="7.5" fill="#6b7280">No-equip · Quiet</text>
+  <text x="1331" y="402" text-anchor="middle" font-size="7.5" fill="#6b7280">Low-impact · 5-min</text>
+  <text x="1331" y="412" text-anchor="middle" font-size="7" fill="#9ca3af">Feature C</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 4 — OUTPUT GUARDRAILS (y=460..532)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="460" width="1352" height="72" rx="8" fill="#f3e8ff" stroke="#c084fc" stroke-width="1.5"/>
+
+  <rect x="56" y="472" width="166" height="48" rx="7" fill="#7c3aed" stroke="#6d28d9" stroke-width="1.5"/>
+  <text x="139" y="492" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">🛡️ Output Guardrails</text>
+  <text x="139" y="508" text-anchor="middle" font-size="9" fill="#ede9fe">guardrails.py</text>
+
+  <rect x="232" y="472" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="306" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Toxicity Filter</text>
+  <text x="306" y="505" text-anchor="middle" font-size="9" fill="#374151">Harmful content block</text>
+  <text x="306" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Medical claim redact</text>
+
+  <rect x="388" y="472" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="462" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Hallucination Check</text>
+  <text x="462" y="505" text-anchor="middle" font-size="9" fill="#374151">Factual accuracy scan</text>
+  <text x="462" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Source confidence</text>
+
+  <rect x="544" y="472" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="618" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Sensitive Info Filter</text>
+  <text x="618" y="505" text-anchor="middle" font-size="9" fill="#374151">PII / Credential scrub</text>
+  <text x="618" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Anonymization</text>
+
+  <rect x="700" y="472" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="774" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Format Validation</text>
+  <text x="774" y="505" text-anchor="middle" font-size="9" fill="#374151">Response structure</text>
+  <text x="774" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Min/Max length</text>
+
+  <rect x="856" y="472" width="148" height="48" rx="6" fill="#fff" stroke="#c084fc" stroke-width="1"/>
+  <text x="930" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Bias Detection</text>
+  <text x="930" y="505" text-anchor="middle" font-size="9" fill="#374151">Ethical compliance</text>
+  <text x="930" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Fairness validation</text>
+
+  <rect x="1012" y="472" width="362" height="48" rx="6" fill="#faf5ff" stroke="#c084fc" stroke-width="1"/>
+  <text x="1193" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#6d28d9">Human-in-the-Loop · Multi-Agent · Ethical &amp; Compliance Guardrails</text>
+  <text x="1193" y="505" text-anchor="middle" font-size="9" fill="#374151">Approval workflows · Agent coordination · Audit trails · Explainability</text>
+  <text x="1193" y="516" text-anchor="middle" font-size="8" fill="#6b7280">Conflict resolution · Infinite loop prevention · Responsible AI principles</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 5 — DATA LAYER (y=544..644)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="544" width="1352" height="100" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+
+  <rect x="56" y="556" width="166" height="76" rx="7" fill="#b45309" stroke="#92400e" stroke-width="1.5"/>
+  <text x="139" y="580" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">💾 Data Layer</text>
+  <text x="139" y="596" text-anchor="middle" font-size="9" fill="#fde68a">progress_store.py</text>
+  <text x="139" y="610" text-anchor="middle" font-size="8" fill="#fcd34d">Local JSON Persistence</text>
+  <text x="139" y="622" text-anchor="middle" font-size="8" fill="#fcd34d">progress.json</text>
+
+  <rect x="234" y="556" width="180" height="76" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
+  <text x="324" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">📊 Progress Store</text>
+  <text x="324" y="594" text-anchor="middle" font-size="8.5" fill="#374151">record_workout()</text>
+  <text x="324" y="607" text-anchor="middle" font-size="8.5" fill="#374151">record_checkin()</text>
+  <text x="324" y="620" text-anchor="middle" font-size="8.5" fill="#374151">increment_habit_day()</text>
+
+  <rect x="422" y="556" width="180" height="76" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
+  <text x="512" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">📈 Progress Fields</text>
+  <text x="512" y="594" text-anchor="middle" font-size="8.5" fill="#374151">weekly_active_days</text>
+  <text x="512" y="607" text-anchor="middle" font-size="8.5" fill="#374151">completed_workouts</text>
+  <text x="512" y="620" text-anchor="middle" font-size="8.5" fill="#374151">habit_streak · minutes</text>
+
+  <rect x="610" y="556" width="180" height="76" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
+  <text x="700" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">🔧 Session State</text>
+  <text x="700" y="594" text-anchor="middle" font-size="8.5" fill="#374151">st.session_state</text>
+  <text x="700" y="607" text-anchor="middle" font-size="8.5" fill="#374151">checkin_data</text>
+  <text x="700" y="620" text-anchor="middle" font-size="8.5" fill="#374151">chat_history · score</text>
+
+  <rect x="798" y="556" width="180" height="76" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
+  <text x="888" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">🌿 Environment</text>
+  <text x="888" y="594" text-anchor="middle" font-size="8.5" fill="#374151">.env (python-dotenv)</text>
+  <text x="888" y="607" text-anchor="middle" font-size="8.5" fill="#374151">IBM_API_KEY</text>
+  <text x="888" y="620" text-anchor="middle" font-size="8.5" fill="#374151">IBM_PROJECT_ID</text>
+
+  <rect x="986" y="556" width="385" height="76" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1"/>
+  <text x="1178" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#92400e">📁 Data Privacy &amp; Guardrail State</text>
+  <text x="1178" y="594" text-anchor="middle" font-size="8.5" fill="#374151">Data masking · Role-based access · DB access restrictions</text>
+  <text x="1178" y="607" text-anchor="middle" font-size="8.5" fill="#374151">guardrail_warnings log · session rate counters · token budgets</text>
+  <text x="1178" y="620" text-anchor="middle" font-size="8.5" fill="#374151">Unauthorized data retrieval prevention · Anonymization pipeline</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 6 — SECURITY (y=656..732)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="656" width="1352" height="76" rx="8" fill="#fee2e2" stroke="#fca5a5" stroke-width="1.5"/>
+
+  <rect x="56" y="664" width="166" height="60" rx="7" fill="#dc2626" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="139" y="688" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">🔒 Security Layer</text>
+  <text x="139" y="706" text-anchor="middle" font-size="9" fill="#fecaca">5 Security Guardrails</text>
+
+  <rect x="232" y="664" width="200" height="60" rx="6" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
+  <text x="332" y="682" text-anchor="middle" font-size="9" font-weight="700" fill="#dc2626">Prompt Injection Protection</text>
+  <text x="332" y="697" text-anchor="middle" font-size="8.5" fill="#374151">Pattern matching · Blocklist</text>
+  <text x="332" y="710" text-anchor="middle" font-size="8" fill="#6b7280">Jailbreak phrase detection</text>
+
+  <rect x="440" y="664" width="200" height="60" rx="6" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
+  <text x="540" y="682" text-anchor="middle" font-size="9" font-weight="700" fill="#dc2626">SQL Injection Prevention</text>
+  <text x="540" y="697" text-anchor="middle" font-size="8.5" fill="#374151">Query sanitization</text>
+  <text x="540" y="710" text-anchor="middle" font-size="8" fill="#6b7280">Parameterized queries</text>
+
+  <rect x="648" y="664" width="200" height="60" rx="6" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
+  <text x="748" y="682" text-anchor="middle" font-size="9" font-weight="700" fill="#dc2626">Credential &amp; Secret Mgmt</text>
+  <text x="748" y="697" text-anchor="middle" font-size="8.5" fill="#374151">Secrets via .env only</text>
+  <text x="748" y="710" text-anchor="middle" font-size="8" fill="#6b7280">Never in source code</text>
+
+  <rect x="856" y="664" width="200" height="60" rx="6" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
+  <text x="956" y="682" text-anchor="middle" font-size="9" font-weight="700" fill="#dc2626">Cross-Agent Communication</text>
+  <text x="956" y="697" text-anchor="middle" font-size="8.5" fill="#374151">Agent auth validation</text>
+  <text x="956" y="710" text-anchor="middle" font-size="8" fill="#6b7280">Communication monitoring</text>
+
+  <rect x="1064" y="664" width="307" height="60" rx="6" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
+  <text x="1218" y="682" text-anchor="middle" font-size="9" font-weight="700" fill="#dc2626">API Authorization &amp; Tool Execution Control</text>
+  <text x="1218" y="697" text-anchor="middle" font-size="8.5" fill="#374151">Tool permissions matrix · Function-call validation</text>
+  <text x="1218" y="710" text-anchor="middle" font-size="8" fill="#6b7280">Restricted tool execution · Unauthorized action prevention</text>
+
+  <!-- ══════════════════════════════════════════════════
+       ROW 7 — OPERATIONS (y=744..844)
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="744" width="1352" height="100" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <rect x="56" y="752" width="166" height="84" rx="7" fill="#374151" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="139" y="776" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">⚙️ Operational</text>
+  <text x="139" y="792" text-anchor="middle" font-size="9" fill="#d1d5db">6 Op. Guardrails</text>
+  <text x="139" y="808" text-anchor="middle" font-size="8.5" fill="#9ca3af">requirements.txt</text>
+  <text x="139" y="822" text-anchor="middle" font-size="8" fill="#9ca3af">setup_check.py</text>
+
+  <rect x="232" y="752" width="176" height="84" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="320" y="772" text-anchor="middle" font-size="9" font-weight="700" fill="#374151">⏱️ Execution Limits</text>
+  <text x="320" y="787" text-anchor="middle" font-size="8.5" fill="#374151">Max execution time</text>
+  <text x="320" y="801" text-anchor="middle" font-size="8.5" fill="#374151">Max agent iterations</text>
+  <text x="320" y="815" text-anchor="middle" font-size="8" fill="#6b7280">Retry + failure handling</text>
+  <text x="320" y="828" text-anchor="middle" font-size="8" fill="#6b7280">Graceful degradation</text>
+
+  <rect x="416" y="752" width="176" height="84" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="504" y="772" text-anchor="middle" font-size="9" font-weight="700" fill="#374151">💰 Cost Controls</text>
+  <text x="504" y="787" text-anchor="middle" font-size="8.5" fill="#374151">Token usage limits</text>
+  <text x="504" y="801" text-anchor="middle" font-size="8.5" fill="#374151">API rate limiting</text>
+  <text x="504" y="815" text-anchor="middle" font-size="8" fill="#6b7280">Budget monitoring</text>
+  <text x="504" y="828" text-anchor="middle" font-size="8" fill="#6b7280">Cost per call tracking</text>
+
+  <rect x="600" y="752" width="176" height="84" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="688" y="772" text-anchor="middle" font-size="9" font-weight="700" fill="#374151">📦 Dependencies</text>
+  <text x="688" y="787" text-anchor="middle" font-size="8.5" fill="#374151">streamlit · ibm-watson</text>
+  <text x="688" y="801" text-anchor="middle" font-size="8.5" fill="#374151">ibm-watsonx-ai · plotly</text>
+  <text x="688" y="815" text-anchor="middle" font-size="8" fill="#6b7280">python-dotenv · pandas</text>
+  <text x="688" y="828" text-anchor="middle" font-size="8" fill="#6b7280">requirements.txt</text>
+
+  <rect x="784" y="752" width="176" height="84" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="872" y="772" text-anchor="middle" font-size="9" font-weight="700" fill="#374151">🧪 Testing</text>
+  <text x="872" y="787" text-anchor="middle" font-size="8.5" fill="#374151">_test_guardrails.py</text>
+  <text x="872" y="801" text-anchor="middle" font-size="8.5" fill="#374151">23 regression tests</text>
+  <text x="872" y="815" text-anchor="middle" font-size="8" fill="#6b7280">All 9 guardrail layers</text>
+  <text x="872" y="828" text-anchor="middle" font-size="8" fill="#6b7280">setup_check.py verify</text>
+
+  <rect x="968" y="752" width="404" height="84" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+  <text x="1170" y="772" text-anchor="middle" font-size="9" font-weight="700" fill="#374151">📁 Project Files</text>
+  <text x="1170" y="787" text-anchor="middle" font-size="8.5" fill="#374151">app.py · granite_client.py · guardrails.py · features.py · progress_store.py</text>
+  <text x="1170" y="801" text-anchor="middle" font-size="8.5" fill="#374151">setup_check.py · _test_guardrails.py · requirements.txt · README.md</text>
+  <text x="1170" y="815" text-anchor="middle" font-size="8" fill="#6b7280">.env (IBM_API_KEY · IBM_PROJECT_ID · IBM_GRANITE_MODEL_ID · IBM_URL)</text>
+  <text x="1170" y="828" text-anchor="middle" font-size="8" fill="#6b7280">env.example · progress.json (auto-created) · architecture_blueprint.svg</text>
+
+  <!-- ══════════════════════════════════════════════════
+       FLOW ARROWS (vertical connectors between rows)
+  ══════════════════════════════════════════════════ -->
+  <!-- UI → Input Guardrails -->
+  <line x1="700" y1="184" x2="700" y2="196" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Input Guardrails → AI Engine -->
+  <line x1="700" y1="268" x2="700" y2="280" stroke="#0f766e" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- AI Engine → Output Guardrails -->
+  <line x1="700" y1="448" x2="700" y2="460" stroke="#7c3aed" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Output Guardrails → Data Layer -->
+  <line x1="700" y1="532" x2="700" y2="544" stroke="#b45309" stroke-width="2" marker-end="url(#arr)"/>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <!-- ══════════════════════════════════════════════════
+       LEGEND BAR
+  ══════════════════════════════════════════════════ -->
+  <rect x="36" y="848" width="1352" height="1" fill="#e5e7eb"/>
+  <!-- Footer legend items -->
+  <rect x="60" y="851" width="12" height="8" rx="2" fill="#1d4ed8"/>
+  <text x="76" y="860" font-size="8.5" fill="#374151">User Interface (Streamlit)</text>
+  <rect x="220" y="851" width="12" height="8" rx="2" fill="#7c3aed"/>
+  <text x="236" y="860" font-size="8.5" fill="#374151">Guardrail Layers (9)</text>
+  <rect x="380" y="851" width="12" height="8" rx="2" fill="#0f766e"/>
+  <text x="396" y="860" font-size="8.5" fill="#374151">AI Engine (IBM Granite)</text>
+  <rect x="560" y="851" width="12" height="8" rx="2" fill="#b45309"/>
+  <text x="576" y="860" font-size="8.5" fill="#374151">Data &amp; Persistence</text>
+  <rect x="720" y="851" width="12" height="8" rx="2" fill="#dc2626"/>
+  <text x="736" y="860" font-size="8.5" fill="#374151">Security Controls</text>
+  <rect x="880" y="851" width="12" height="8" rx="2" fill="#374151"/>
+  <text x="896" y="860" font-size="8.5" fill="#374151">Operations &amp; Testing</text>
+  <text x="1380" y="860" text-anchor="end" font-size="8" fill="#9ca3af">Fitness Buddy v1.0 · IBM Granite · watsonx.ai</text>
+
+</svg>
