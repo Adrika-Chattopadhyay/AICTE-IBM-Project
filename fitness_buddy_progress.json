@@ -1,0 +1,71 @@
+{
+  "weekly_active_days": 0,
+  "completed_workouts": 0,
+  "total_active_minutes": 0,
+  "habit_streak": 1,
+  "habit_level": 2,
+  "habit_days_this_level": 1,
+  "energy_readings": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "energy_trend": "improving",
+  "current_difficulty": "beginner",
+  "achievements": [
+    "\u2b06\ufe0f Habit Level 2: Walk for 5 minutes!"
+  ],
+  "workout_log": [],
+  "last_checkin_date": "2026-11-07",
+  "weekly_reset_date": "2026-11-07",
+  "readiness_scores": [
+    {
+      "date": "2026-11-07",
+      "score": 85
+    },
+    {
+      "date": "2026-11-07",
+      "score": 85
+    },
+    {
+      "date": "2026-11-07",
+      "score": 85
+    },
+    {
+      "date": "2026-11-07",
+      "score": 85
+    },
+    {
+      "date": "2026-11-07",
+      "score": 67
+    },
+    {
+      "date": "2026-11-07",
+      "score": 82
+    },
+    {
+      "date": "2026-11-07",
+      "score": 88
+    },
+    {
+      "date": "2026-11-07",
+      "score": 88
+    },
+    {
+      "date": "2026-11-07",
+      "score": 53
+    },
+    {
+      "date": "2026-11-07",
+      "score": 96
+    }
+  ],
+  "session_count": 10
+}
